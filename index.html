@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang=" 'es'">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <title>youtube</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+
+</head>
+
+<body class="main">
+  <script type="module" src=".js/script.js"></script>
+  <form id="form">
+    <h1>Formulario</h1>
+    <label >Nombre del Producto <input type="text" id="name1" placeholder="inserte texto" ></label>
+    <br>
+    <label >Cantidad <input type="number" id="amount1"placeholder="inserte números"></label>
+    <br>
+    <label>Precio <input type="number" id="price1" placeholder="inserte números"></label>
+    <br>
+    <label> Categoría</label>
+    <select id="category">
+      <option value="belleza">Belleza</option>
+      <option value="mascotas">Mascotas</option>
+      <option value="Aseo">Aseo</option>
+    </select>
+    <button type="submit">Agregar producto</button>
+  </form>
+  <table id="tablaDeProductos">
+    <thead>
+      <tr>
+        <th>Nombre del Producto</th>
+        <th>Precio del Producto</th>
+        <th>Cantidad del Producto</th>
+        <th>Categoría del Producto</th>
+        <th>Acciones
+        
+
+        </th>
+
+      </tr>
+    </thead>
+    <tbody id="bodyTable"></tbody>
+  </table>
+  <section>
+    <form id="formActualizar">
+      <h1>FORMULARIO PARA ACTUALIZAR PRODUCTOS</h1>
+      <label><input id="name2" >Inserte nombre del producto</label>
+      <br>
+      <label><input id="price2">Inserte precio del producto</label>
+      <br>
+      <label><input id="amount2" >Inserte cantidad del producto</label>
+      <br>
+      <label><input id="category2" >Inserte Categoría del producto</label>
+      <!-- <button type="button" onclick="location.href='/index.html'">Cancelar</button> -->
+<button type="reset">Restablecer</button>
+
+  
+  
+    </form>
+  </section>
+
+</body>
+</html>
